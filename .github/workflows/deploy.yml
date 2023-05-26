@@ -21,6 +21,4 @@ jobs:
         uses: docker/build-push-action@v4.0.0
         with:
           push: true
-          tags: express-app:latest
-          context: .
-          dockerfile: Dockerfile
+          tags: blackwinter74/express-app:latest
